@@ -1,0 +1,1 @@
+/mnt/c/Users/sh21317/OneDrive - Savonia-ammattikorkeakoulu/Tiedostot/Arduino/tuova-iot/esp32/esp32.ino
