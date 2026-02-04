@@ -4,7 +4,7 @@ const moment = require("moment");
 
 const port = new SerialPort({
   path: process.env.SERIAL_PATH || "/dev/ttyUSB0",
-  baudRate: process.env.SERIAL_BAUD || 115200,
+  baudRate: parseInt(process.env.SERIAL_BAUD) || 115200,
 });
 
 // serial open callback

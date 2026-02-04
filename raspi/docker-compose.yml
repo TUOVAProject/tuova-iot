@@ -1,0 +1,11 @@
+services:
+  tuova-iot:
+    image: node:24.13
+    container_name: tuova-iot
+    restart: unless-stopped
+    volumes:
+      - ./app:/home/node/app
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0:rwm
+    working_dir: /home/node/app
+    command: npm run start
