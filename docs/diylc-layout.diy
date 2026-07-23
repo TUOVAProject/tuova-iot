@@ -12,6 +12,63 @@
   <gridSpacing value="0.1" unit="in"/>
   <dotSpacing>1</dotSpacing>
   <components>
+    <diylc.shapes.Rectangle>
+      <id>fcae0163-7113-43c8-94f6-bee759cb7bf4</id>
+      <name>RECT4</name>
+      <alpha>0</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.9" y="1.2"/>
+        <point x="5.8" y="2.1"/>
+      </controlPoints>
+      <firstPoint x="4.9" y="1.2"/>
+      <secondPoint x="5.8" y="2.1"/>
+      <color hex="ffffff"/>
+      <borderColor hex="ff3333"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <length value="22.86" unit="mm"/>
+      <width value="22.86" unit="mm"/>
+      <mode>TwoPoints</mode>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <id>24e4f0d8-4c1b-4896-baf4-8f47f67fc374</id>
+      <name>RECT6</name>
+      <alpha>0</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.9" y="1.2"/>
+        <point x="4.8" y="2.1"/>
+      </controlPoints>
+      <firstPoint x="3.9" y="1.2"/>
+      <secondPoint x="4.8" y="2.1"/>
+      <color hex="ffffff"/>
+      <borderColor hex="ff3333"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <length value="22.86" unit="mm"/>
+      <width value="22.86" unit="mm"/>
+      <mode>TwoPoints</mode>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <id>ecd623b5-fcf1-41c7-9ef1-2f0b1d4cf946</id>
+      <name>RECT5</name>
+      <alpha>0</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.9" y="1.2"/>
+        <point x="3.8" y="2.1"/>
+      </controlPoints>
+      <firstPoint x="2.9" y="1.2"/>
+      <secondPoint x="3.8" y="2.1"/>
+      <color hex="ffffff"/>
+      <borderColor hex="ff3333"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <length value="22.86" unit="mm"/>
+      <width value="22.86" unit="mm"/>
+      <mode>TwoPoints</mode>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
     <diylc.boards.VeroBoard>
       <id>32f39ced-6d6e-41be-b92e-aeacdce89608</id>
       <name>Board1</name>
@@ -568,227 +625,15 @@
       <edgeRadius value="0.0" unit="mm"/>
     </diylc.shapes.Rectangle>
     <diylc.passive.TransformerCoil>
-      <id>7681f319-5269-45eb-9461-4e7137f8e689</id>
-      <name>L3</name>
-      <controlPoints>
-        <point x="3.7" y="1.6"/>
-        <point x="3.7" y="2.0"/>
-      </controlPoints>
-      <orientation>DEFAULT</orientation>
-      <color hex="0000ff"/>
-      <tapSpacing value="0.4" unit="in"/>
-      <body>
-        <java.awt.geom.GeneralPath serialization="custom">
-          <unserializable-parents/>
-          <java.awt.geom.Path2D_-Float>
-            <default/>
-            <byte>48</byte>
-            <int>4</int>
-            <int>8</int>
-            <byte>1</byte>
-            <byte>64</byte>
-            <float>740.0</float>
-            <float>320.0</float>
-            <byte>65</byte>
-            <float>765.0</float>
-            <float>320.0</float>
-            <byte>64</byte>
-            <float>740.0</float>
-            <float>400.0</float>
-            <byte>65</byte>
-            <float>765.0</float>
-            <float>400.0</float>
-            <byte>97</byte>
-          </java.awt.geom.Path2D_-Float>
-        </java.awt.geom.GeneralPath>
-        <java.awt.geom.GeneralPath serialization="custom">
-          <unserializable-parents/>
-          <java.awt.geom.Path2D_-Float>
-            <default/>
-            <byte>48</byte>
-            <int>9</int>
-            <int>50</int>
-            <byte>1</byte>
-            <byte>64</byte>
-            <float>765.0</float>
-            <float>320.0</float>
-            <byte>67</byte>
-            <float>775.0</float>
-            <float>320.0</float>
-            <float>775.0</float>
-            <float>330.0</float>
-            <float>765.0</float>
-            <float>330.0</float>
-            <byte>67</byte>
-            <float>775.0</float>
-            <float>330.0</float>
-            <float>775.0</float>
-            <float>340.0</float>
-            <float>765.0</float>
-            <float>340.0</float>
-            <byte>67</byte>
-            <float>775.0</float>
-            <float>340.0</float>
-            <float>775.0</float>
-            <float>350.0</float>
-            <float>765.0</float>
-            <float>350.0</float>
-            <byte>67</byte>
-            <float>775.0</float>
-            <float>350.0</float>
-            <float>775.0</float>
-            <float>360.0</float>
-            <float>765.0</float>
-            <float>360.0</float>
-            <byte>67</byte>
-            <float>775.0</float>
-            <float>360.0</float>
-            <float>775.0</float>
-            <float>370.0</float>
-            <float>765.0</float>
-            <float>370.0</float>
-            <byte>67</byte>
-            <float>775.0</float>
-            <float>370.0</float>
-            <float>775.0</float>
-            <float>380.0</float>
-            <float>765.0</float>
-            <float>380.0</float>
-            <byte>67</byte>
-            <float>775.0</float>
-            <float>380.0</float>
-            <float>775.0</float>
-            <float>390.0</float>
-            <float>765.0</float>
-            <float>390.0</float>
-            <byte>67</byte>
-            <float>775.0</float>
-            <float>390.0</float>
-            <float>775.0</float>
-            <float>400.0</float>
-            <float>765.0</float>
-            <float>400.0</float>
-            <byte>97</byte>
-          </java.awt.geom.Path2D_-Float>
-        </java.awt.geom.GeneralPath>
-      </body>
-    </diylc.passive.TransformerCoil>
-    <diylc.passive.TransformerCoil>
-      <id>a285797e-b49c-47c2-a0ef-b7558a050211</id>
-      <name>L4</name>
-      <controlPoints>
-        <point x="4.2" y="1.6"/>
-        <point x="4.2" y="2.0"/>
-      </controlPoints>
-      <orientation>DEFAULT</orientation>
-      <color hex="0000ff"/>
-      <tapSpacing value="0.4" unit="in"/>
-      <body>
-        <java.awt.geom.GeneralPath serialization="custom">
-          <unserializable-parents/>
-          <java.awt.geom.Path2D_-Float>
-            <default/>
-            <byte>48</byte>
-            <int>4</int>
-            <int>8</int>
-            <byte>1</byte>
-            <byte>64</byte>
-            <float>840.0</float>
-            <float>320.0</float>
-            <byte>65</byte>
-            <float>865.0</float>
-            <float>320.0</float>
-            <byte>64</byte>
-            <float>840.0</float>
-            <float>400.0</float>
-            <byte>65</byte>
-            <float>865.0</float>
-            <float>400.0</float>
-            <byte>97</byte>
-          </java.awt.geom.Path2D_-Float>
-        </java.awt.geom.GeneralPath>
-        <java.awt.geom.GeneralPath serialization="custom">
-          <unserializable-parents/>
-          <java.awt.geom.Path2D_-Float>
-            <default/>
-            <byte>48</byte>
-            <int>9</int>
-            <int>50</int>
-            <byte>1</byte>
-            <byte>64</byte>
-            <float>865.0</float>
-            <float>320.0</float>
-            <byte>67</byte>
-            <float>875.0</float>
-            <float>320.0</float>
-            <float>875.0</float>
-            <float>330.0</float>
-            <float>865.0</float>
-            <float>330.0</float>
-            <byte>67</byte>
-            <float>875.0</float>
-            <float>330.0</float>
-            <float>875.0</float>
-            <float>340.0</float>
-            <float>865.0</float>
-            <float>340.0</float>
-            <byte>67</byte>
-            <float>875.0</float>
-            <float>340.0</float>
-            <float>875.0</float>
-            <float>350.0</float>
-            <float>865.0</float>
-            <float>350.0</float>
-            <byte>67</byte>
-            <float>875.0</float>
-            <float>350.0</float>
-            <float>875.0</float>
-            <float>360.0</float>
-            <float>865.0</float>
-            <float>360.0</float>
-            <byte>67</byte>
-            <float>875.0</float>
-            <float>360.0</float>
-            <float>875.0</float>
-            <float>370.0</float>
-            <float>865.0</float>
-            <float>370.0</float>
-            <byte>67</byte>
-            <float>875.0</float>
-            <float>370.0</float>
-            <float>875.0</float>
-            <float>380.0</float>
-            <float>865.0</float>
-            <float>380.0</float>
-            <byte>67</byte>
-            <float>875.0</float>
-            <float>380.0</float>
-            <float>875.0</float>
-            <float>390.0</float>
-            <float>865.0</float>
-            <float>390.0</float>
-            <byte>67</byte>
-            <float>875.0</float>
-            <float>390.0</float>
-            <float>875.0</float>
-            <float>400.0</float>
-            <float>865.0</float>
-            <float>400.0</float>
-            <byte>97</byte>
-          </java.awt.geom.Path2D_-Float>
-        </java.awt.geom.GeneralPath>
-      </body>
-    </diylc.passive.TransformerCoil>
-    <diylc.passive.TransformerCoil>
       <id>a285797e-b49c-47c2-a0ef-b7558a050211</id>
       <name>L5</name>
       <controlPoints>
-        <point x="4.7" y="1.6"/>
-        <point x="4.7" y="2.0"/>
+        <point x="5.5" y="1.4"/>
+        <point x="5.5" y="2.0"/>
       </controlPoints>
       <orientation>DEFAULT</orientation>
       <color hex="0000ff"/>
-      <tapSpacing value="0.4" unit="in"/>
+      <tapSpacing value="0.6" unit="in"/>
       <body>
         <java.awt.geom.GeneralPath serialization="custom">
           <unserializable-parents/>
@@ -799,16 +644,16 @@
             <int>8</int>
             <byte>1</byte>
             <byte>64</byte>
-            <float>940.0</float>
-            <float>320.0</float>
+            <float>1100.0</float>
+            <float>280.0</float>
             <byte>65</byte>
-            <float>965.0</float>
-            <float>320.0</float>
+            <float>1125.0</float>
+            <float>280.0</float>
             <byte>64</byte>
-            <float>940.0</float>
+            <float>1100.0</float>
             <float>400.0</float>
             <byte>65</byte>
-            <float>965.0</float>
+            <float>1125.0</float>
             <float>400.0</float>
             <byte>97</byte>
           </java.awt.geom.Path2D_-Float>
@@ -818,67 +663,95 @@
           <java.awt.geom.Path2D_-Float>
             <default/>
             <byte>48</byte>
-            <int>9</int>
-            <int>50</int>
+            <int>13</int>
+            <int>74</int>
             <byte>1</byte>
             <byte>64</byte>
-            <float>965.0</float>
+            <float>1125.0</float>
+            <float>280.0</float>
+            <byte>67</byte>
+            <float>1135.0</float>
+            <float>280.0</float>
+            <float>1135.0</float>
+            <float>290.0</float>
+            <float>1125.0</float>
+            <float>290.0</float>
+            <byte>67</byte>
+            <float>1135.0</float>
+            <float>290.0</float>
+            <float>1135.0</float>
+            <float>300.0</float>
+            <float>1125.0</float>
+            <float>300.0</float>
+            <byte>67</byte>
+            <float>1135.0</float>
+            <float>300.0</float>
+            <float>1135.0</float>
+            <float>310.0</float>
+            <float>1125.0</float>
+            <float>310.0</float>
+            <byte>67</byte>
+            <float>1135.0</float>
+            <float>310.0</float>
+            <float>1135.0</float>
+            <float>320.0</float>
+            <float>1125.0</float>
             <float>320.0</float>
             <byte>67</byte>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>320.0</float>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>330.0</float>
-            <float>965.0</float>
+            <float>1125.0</float>
             <float>330.0</float>
             <byte>67</byte>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>330.0</float>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>340.0</float>
-            <float>965.0</float>
+            <float>1125.0</float>
             <float>340.0</float>
             <byte>67</byte>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>340.0</float>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>350.0</float>
-            <float>965.0</float>
+            <float>1125.0</float>
             <float>350.0</float>
             <byte>67</byte>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>350.0</float>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>360.0</float>
-            <float>965.0</float>
+            <float>1125.0</float>
             <float>360.0</float>
             <byte>67</byte>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>360.0</float>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>370.0</float>
-            <float>965.0</float>
+            <float>1125.0</float>
             <float>370.0</float>
             <byte>67</byte>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>370.0</float>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>380.0</float>
-            <float>965.0</float>
+            <float>1125.0</float>
             <float>380.0</float>
             <byte>67</byte>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>380.0</float>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>390.0</float>
-            <float>965.0</float>
+            <float>1125.0</float>
             <float>390.0</float>
             <byte>67</byte>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>390.0</float>
-            <float>975.0</float>
+            <float>1135.0</float>
             <float>400.0</float>
-            <float>965.0</float>
+            <float>1125.0</float>
             <float>400.0</float>
             <byte>97</byte>
           </java.awt.geom.Path2D_-Float>
@@ -890,8 +763,8 @@
       <name>LN11</name>
       <alpha>127</alpha>
       <points>
-        <point x="2.2" y="1.1"/>
-        <point x="3.0" y="1.1"/>
+        <point x="1.7000000000000002" y="0.6000000000000001"/>
+        <point x="2.5" y="0.6000000000000001"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -917,9 +790,9 @@
       <length value="0.3" unit="in"/>
       <width value="0.08" unit="in"/>
       <points>
-        <point x="3.0" y="1.1"/>
-        <point x="3.0" y="1.5"/>
-        <point x="3.075" y="1.2999999999999998"/>
+        <point x="2.5" y="0.6000000000000001"/>
+        <point x="2.5" y="1.0"/>
+        <point x="2.575" y="0.7999999999999997"/>
       </points>
       <borderColor hex="0000ff"/>
       <labelColor hex="000000"/>
@@ -942,9 +815,9 @@
       <length value="0.3" unit="in"/>
       <width value="0.08" unit="in"/>
       <points>
-        <point x="3.0" y="1.9"/>
-        <point x="3.0" y="1.5"/>
-        <point x="2.924999999999999" y="1.7"/>
+        <point x="2.5" y="1.4"/>
+        <point x="2.5" y="1.0"/>
+        <point x="2.424999999999999" y="1.2"/>
       </points>
       <borderColor hex="0000ff"/>
       <labelColor hex="000000"/>
@@ -961,62 +834,12 @@
       <powerNew value="0.5" unit="W"/>
     </diylc.passive.ResistorSymbol>
     <diylc.connectivity.Line>
-      <id>5043e2ef-0b7a-4b68-8001-1fa3ecc318e2</id>
-      <name>LN24</name>
-      <alpha>127</alpha>
-      <points>
-        <point x="3.6" y="1.5"/>
-        <point x="3.6" y="1.6"/>
-        <point x="0.0" y="0.0"/>
-      </points>
-      <bodyColor hex="ffffff"/>
-      <borderColor hex="000000"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <color hex="000000"/>
-      <style>SOLID</style>
-      <thickness value="1.0" unit="px"/>
-      <arrowSize value="5.0" unit="px"/>
-      <arrowStart>false</arrowStart>
-      <arrowEnd>false</arrowEnd>
-    </diylc.connectivity.Line>
-    <diylc.connectivity.Line>
       <id>8fdc5562-afea-46cf-81ef-91683b814843</id>
       <name>LN16</name>
       <alpha>127</alpha>
       <points>
-        <point x="3.0" y="1.5"/>
-        <point x="4.6" y="1.5"/>
-        <point x="0.0" y="0.0"/>
-      </points>
-      <bodyColor hex="ffffff"/>
-      <borderColor hex="000000"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <color hex="000000"/>
-      <style>SOLID</style>
-      <thickness value="1.0" unit="px"/>
-      <arrowSize value="5.0" unit="px"/>
-      <arrowStart>false</arrowStart>
-      <arrowEnd>false</arrowEnd>
-    </diylc.connectivity.Line>
-    <diylc.connectivity.Line>
-      <id>4c7f0ebf-f6ce-4031-bcde-00e512b0ac7f</id>
-      <name>LN25</name>
-      <alpha>127</alpha>
-      <points>
-        <point x="4.1" y="1.6"/>
-        <point x="4.1" y="1.5"/>
+        <point x="2.5" y="1.0"/>
+        <point x="5.1" y="1.0"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -1038,7 +861,7 @@
     <diylc.misc.GroundSymbol>
       <id>51b641c8-1acb-42b1-9ffb-45b2bf880432</id>
       <name>GND1</name>
-      <point x="3.0" y="2.3"/>
+      <point x="2.5" y="1.7999999999999998"/>
       <color hex="000000"/>
       <size value="0.15" unit="in"/>
       <type>DEFAULT</type>
@@ -1050,8 +873,8 @@
       <name>LN12</name>
       <alpha>127</alpha>
       <points>
-        <point x="3.0" y="1.9"/>
-        <point x="3.0" y="2.3"/>
+        <point x="2.5" y="1.4"/>
+        <point x="2.5" y="1.7999999999999998"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -1077,9 +900,9 @@
       <length value="0.05" unit="in"/>
       <width value="0.15" unit="in"/>
       <points>
-        <point x="3.3" y="1.6"/>
-        <point x="3.3" y="1.8"/>
-        <point x="3.41" y="1.7"/>
+        <point x="2.8" y="1.1"/>
+        <point x="2.8" y="1.3"/>
+        <point x="2.91" y="1.2"/>
       </points>
       <borderColor hex="0000ff"/>
       <labelColor hex="000000"/>
@@ -1099,8 +922,8 @@
       <name>LN27</name>
       <alpha>127</alpha>
       <points>
-        <point x="3.3" y="1.8"/>
-        <point x="3.3" y="2.0"/>
+        <point x="2.8" y="1.3"/>
+        <point x="2.8" y="1.5"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -1124,8 +947,8 @@
       <name>LN28</name>
       <alpha>127</alpha>
       <points>
-        <point x="3.3" y="2.0"/>
-        <point x="3.0" y="2.0"/>
+        <point x="2.8" y="1.5"/>
+        <point x="2.5" y="1.5"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -1149,58 +972,8 @@
       <name>LN29</name>
       <alpha>127</alpha>
       <points>
-        <point x="3.3" y="1.5"/>
-        <point x="3.3" y="1.6"/>
-        <point x="0.0" y="0.0"/>
-      </points>
-      <bodyColor hex="ffffff"/>
-      <borderColor hex="000000"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <color hex="000000"/>
-      <style>SOLID</style>
-      <thickness value="1.0" unit="px"/>
-      <arrowSize value="5.0" unit="px"/>
-      <arrowStart>false</arrowStart>
-      <arrowEnd>false</arrowEnd>
-    </diylc.connectivity.Line>
-    <diylc.connectivity.Line>
-      <id>ef5366e8-2758-4010-a659-283a96e98589</id>
-      <name>LN30</name>
-      <alpha>127</alpha>
-      <points>
-        <point x="3.6" y="2.0"/>
-        <point x="3.6" y="2.3"/>
-        <point x="0.0" y="0.0"/>
-      </points>
-      <bodyColor hex="ffffff"/>
-      <borderColor hex="000000"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <color hex="000000"/>
-      <style>SOLID</style>
-      <thickness value="1.0" unit="px"/>
-      <arrowSize value="5.0" unit="px"/>
-      <arrowStart>false</arrowStart>
-      <arrowEnd>false</arrowEnd>
-    </diylc.connectivity.Line>
-    <diylc.connectivity.Line>
-      <id>40274b15-1e37-4052-9d8d-b38165890348</id>
-      <name>LN31</name>
-      <alpha>127</alpha>
-      <points>
-        <point x="4.1" y="2.0"/>
-        <point x="4.1" y="2.3"/>
+        <point x="2.8" y="1.0"/>
+        <point x="2.8" y="1.1"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -1224,8 +997,8 @@
       <name>LN32</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.6" y="2.0"/>
-        <point x="4.6" y="2.3"/>
+        <point x="5.1" y="2.0"/>
+        <point x="5.1" y="2.4"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -1239,7 +1012,7 @@
       <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
-      <thickness value="1.0" unit="px"/>
+      <thickness value="0.5" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
@@ -1249,28 +1022,14 @@
       <name>Dot1</name>
       <size value="1.0" unit="mm"/>
       <color hex="ff0000"/>
-      <point x="2.2" y="1.1"/>
-    </diylc.connectivity.Dot>
-    <diylc.connectivity.Dot>
-      <id>c0de36b9-41a4-4239-86b6-8b0744b25333</id>
-      <name>Dot2</name>
-      <size value="1.0" unit="mm"/>
-      <color hex="000000"/>
-      <point x="3.6" y="2.3"/>
-    </diylc.connectivity.Dot>
-    <diylc.connectivity.Dot>
-      <id>98b50285-7876-458f-9997-e64281a822f7</id>
-      <name>Dot3</name>
-      <size value="1.0" unit="mm"/>
-      <color hex="000000"/>
-      <point x="4.1" y="2.3"/>
+      <point x="1.7000000000000002" y="0.6000000000000001"/>
     </diylc.connectivity.Dot>
     <diylc.connectivity.Dot>
       <id>ab7f41f0-f97c-432e-a59b-615e10b37daa</id>
       <name>Dot4</name>
       <size value="1.0" unit="mm"/>
       <color hex="000000"/>
-      <point x="4.6" y="2.3"/>
+      <point x="5.1" y="2.4"/>
     </diylc.connectivity.Dot>
     <diylc.electromechanical.PinHeader>
       <id>df9e32f9-646f-478e-85b0-77d7690ad70f</id>
@@ -1404,8 +1163,8 @@
       <name>LN8</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.6" y="1.6"/>
-        <point x="4.6" y="1.5"/>
+        <point x="5.1" y="1.4"/>
+        <point x="5.1" y="1.0"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -1419,107 +1178,7 @@
       <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
-      <thickness value="1.0" unit="px"/>
-      <arrowSize value="5.0" unit="px"/>
-      <arrowStart>false</arrowStart>
-      <arrowEnd>false</arrowEnd>
-    </diylc.connectivity.Line>
-    <diylc.connectivity.Line>
-      <id>2b660dca-4d38-4b95-b63a-bf542d011339</id>
-      <name>LN21</name>
-      <alpha>127</alpha>
-      <points>
-        <point x="3.6" y="2.0"/>
-        <point x="3.7" y="2.0"/>
-        <point x="0.0" y="0.0"/>
-      </points>
-      <bodyColor hex="ffffff"/>
-      <borderColor hex="000000"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <color hex="000000"/>
-      <style>SOLID</style>
-      <thickness value="1.0" unit="px"/>
-      <arrowSize value="5.0" unit="px"/>
-      <arrowStart>false</arrowStart>
-      <arrowEnd>false</arrowEnd>
-    </diylc.connectivity.Line>
-    <diylc.connectivity.Line>
-      <id>9f348532-4f87-4798-baef-7183bba8b317</id>
-      <name>LN22</name>
-      <alpha>127</alpha>
-      <points>
-        <point x="3.6" y="1.6"/>
-        <point x="3.7" y="1.6"/>
-        <point x="0.0" y="0.0"/>
-      </points>
-      <bodyColor hex="ffffff"/>
-      <borderColor hex="000000"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <color hex="000000"/>
-      <style>SOLID</style>
-      <thickness value="1.0" unit="px"/>
-      <arrowSize value="5.0" unit="px"/>
-      <arrowStart>false</arrowStart>
-      <arrowEnd>false</arrowEnd>
-    </diylc.connectivity.Line>
-    <diylc.connectivity.Line>
-      <id>0eebbeb8-6875-44e2-bf43-6679d55e2f61</id>
-      <name>LN23</name>
-      <alpha>127</alpha>
-      <points>
-        <point x="4.1" y="1.6"/>
-        <point x="4.2" y="1.6"/>
-        <point x="0.0" y="0.0"/>
-      </points>
-      <bodyColor hex="ffffff"/>
-      <borderColor hex="000000"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <color hex="000000"/>
-      <style>SOLID</style>
-      <thickness value="1.0" unit="px"/>
-      <arrowSize value="5.0" unit="px"/>
-      <arrowStart>false</arrowStart>
-      <arrowEnd>false</arrowEnd>
-    </diylc.connectivity.Line>
-    <diylc.connectivity.Line>
-      <id>e74077e1-a42f-4d31-97b9-2bb5e3e236dc</id>
-      <name>LN26</name>
-      <alpha>127</alpha>
-      <points>
-        <point x="4.1" y="2.0"/>
-        <point x="4.2" y="2.0"/>
-        <point x="0.0" y="0.0"/>
-      </points>
-      <bodyColor hex="ffffff"/>
-      <borderColor hex="000000"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <color hex="000000"/>
-      <style>SOLID</style>
-      <thickness value="1.0" unit="px"/>
+      <thickness value="0.5" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
@@ -1529,8 +1188,8 @@
       <name>LN33</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.6" y="2.0"/>
-        <point x="4.7" y="2.0"/>
+        <point x="5.1" y="2.0"/>
+        <point x="5.5" y="2.0"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -1544,7 +1203,7 @@
       <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
-      <thickness value="1.0" unit="px"/>
+      <thickness value="0.5" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
@@ -1554,8 +1213,8 @@
       <name>LN34</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.6" y="1.6"/>
-        <point x="4.7" y="1.6"/>
+        <point x="5.1" y="1.4"/>
+        <point x="5.5" y="1.4"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -1569,7 +1228,7 @@
       <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
-      <thickness value="1.0" unit="px"/>
+      <thickness value="0.5" unit="px"/>
       <arrowSize value="5.0" unit="px"/>
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
@@ -1581,9 +1240,9 @@
       <length value="0.3" unit="in"/>
       <width value="0.08" unit="in"/>
       <points>
-        <point x="4.6" y="2.0"/>
-        <point x="4.6" y="1.6"/>
-        <point x="4.525" y="1.8"/>
+        <point x="5.1" y="2.0"/>
+        <point x="5.1" y="1.4"/>
+        <point x="5.025000000000001" y="1.7"/>
       </points>
       <borderColor hex="0000ff"/>
       <labelColor hex="000000"/>
@@ -1598,16 +1257,662 @@
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
     </diylc.passive.ResistorSymbol>
+    <diylc.semiconductors.ZenerDiodeSymbol>
+      <id>5b2fe514-93f0-46cd-a868-b7ba03a4fb9f</id>
+      <name>D5</name>
+      <alpha>127</alpha>
+      <length value="0.1" unit="in"/>
+      <width value="0.1" unit="in"/>
+      <points>
+        <point x="5.4" y="1.4"/>
+        <point x="5.4" y="1.8"/>
+        <point x="5.485" y="1.6000000000000003"/>
+      </points>
+      <bodyColor hex="0000ff"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <labelPosition>ABOVE</labelPosition>
+      <value></value>
+    </diylc.semiconductors.ZenerDiodeSymbol>
+    <diylc.semiconductors.ZenerDiodeSymbol>
+      <id>ac395fd5-daad-45c3-9949-8d1f717399d2</id>
+      <name>D6</name>
+      <alpha>127</alpha>
+      <length value="0.1" unit="in"/>
+      <width value="0.1" unit="in"/>
+      <points>
+        <point x="5.4" y="2.0"/>
+        <point x="5.4" y="1.6"/>
+        <point x="5.315" y="1.7999999999999994"/>
+      </points>
+      <bodyColor hex="0000ff"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <labelPosition>ABOVE</labelPosition>
+      <value></value>
+    </diylc.semiconductors.ZenerDiodeSymbol>
+    <diylc.connectivity.Line>
+      <id>1b638da2-1832-4852-92b8-f9bd010b4519</id>
+      <name>LN1</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.4" y="1.8"/>
+        <point x="5.4" y="1.7"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="0.5" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.passive.TransformerCoil>
+      <id>6e6f5730-987f-4dd7-807e-86434192813d</id>
+      <name>L1</name>
+      <controlPoints>
+        <point x="3.5" y="1.4"/>
+        <point x="3.5" y="2.0"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+      <voltage value="0.0"/>
+      <color hex="0000ff"/>
+      <tapSpacing value="0.6" unit="in"/>
+      <body>
+        <java.awt.geom.GeneralPath serialization="custom">
+          <unserializable-parents/>
+          <java.awt.geom.Path2D_-Float>
+            <default/>
+            <byte>48</byte>
+            <int>4</int>
+            <int>8</int>
+            <byte>1</byte>
+            <byte>64</byte>
+            <float>700.0</float>
+            <float>280.0</float>
+            <byte>65</byte>
+            <float>725.0</float>
+            <float>280.0</float>
+            <byte>64</byte>
+            <float>700.0</float>
+            <float>400.0</float>
+            <byte>65</byte>
+            <float>725.0</float>
+            <float>400.0</float>
+            <byte>97</byte>
+          </java.awt.geom.Path2D_-Float>
+        </java.awt.geom.GeneralPath>
+        <java.awt.geom.GeneralPath serialization="custom">
+          <unserializable-parents/>
+          <java.awt.geom.Path2D_-Float>
+            <default/>
+            <byte>48</byte>
+            <int>13</int>
+            <int>74</int>
+            <byte>1</byte>
+            <byte>64</byte>
+            <float>725.0</float>
+            <float>280.0</float>
+            <byte>67</byte>
+            <float>735.0</float>
+            <float>280.0</float>
+            <float>735.0</float>
+            <float>290.0</float>
+            <float>725.0</float>
+            <float>290.0</float>
+            <byte>67</byte>
+            <float>735.0</float>
+            <float>290.0</float>
+            <float>735.0</float>
+            <float>300.0</float>
+            <float>725.0</float>
+            <float>300.0</float>
+            <byte>67</byte>
+            <float>735.0</float>
+            <float>300.0</float>
+            <float>735.0</float>
+            <float>310.0</float>
+            <float>725.0</float>
+            <float>310.0</float>
+            <byte>67</byte>
+            <float>735.0</float>
+            <float>310.0</float>
+            <float>735.0</float>
+            <float>320.0</float>
+            <float>725.0</float>
+            <float>320.0</float>
+            <byte>67</byte>
+            <float>735.0</float>
+            <float>320.0</float>
+            <float>735.0</float>
+            <float>330.0</float>
+            <float>725.0</float>
+            <float>330.0</float>
+            <byte>67</byte>
+            <float>735.0</float>
+            <float>330.0</float>
+            <float>735.0</float>
+            <float>340.0</float>
+            <float>725.0</float>
+            <float>340.0</float>
+            <byte>67</byte>
+            <float>735.0</float>
+            <float>340.0</float>
+            <float>735.0</float>
+            <float>350.0</float>
+            <float>725.0</float>
+            <float>350.0</float>
+            <byte>67</byte>
+            <float>735.0</float>
+            <float>350.0</float>
+            <float>735.0</float>
+            <float>360.0</float>
+            <float>725.0</float>
+            <float>360.0</float>
+            <byte>67</byte>
+            <float>735.0</float>
+            <float>360.0</float>
+            <float>735.0</float>
+            <float>370.0</float>
+            <float>725.0</float>
+            <float>370.0</float>
+            <byte>67</byte>
+            <float>735.0</float>
+            <float>370.0</float>
+            <float>735.0</float>
+            <float>380.0</float>
+            <float>725.0</float>
+            <float>380.0</float>
+            <byte>67</byte>
+            <float>735.0</float>
+            <float>380.0</float>
+            <float>735.0</float>
+            <float>390.0</float>
+            <float>725.0</float>
+            <float>390.0</float>
+            <byte>67</byte>
+            <float>735.0</float>
+            <float>390.0</float>
+            <float>735.0</float>
+            <float>400.0</float>
+            <float>725.0</float>
+            <float>400.0</float>
+            <byte>97</byte>
+          </java.awt.geom.Path2D_-Float>
+        </java.awt.geom.GeneralPath>
+      </body>
+    </diylc.passive.TransformerCoil>
+    <diylc.connectivity.Line>
+      <id>37b611df-8c47-43c0-a6c8-573f8a3c9501</id>
+      <name>LN2</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="3.1" y="2.0"/>
+        <point x="3.1" y="2.4"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="0.5" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Dot>
+      <id>3c10fa9e-d443-4dfe-9eb9-76d496a02a1e</id>
+      <name>Dot2</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="000000"/>
+      <point x="3.1" y="2.4"/>
+    </diylc.connectivity.Dot>
+    <diylc.connectivity.Line>
+      <id>8e7becb9-2ff2-4eea-87bc-6c183e6485be</id>
+      <name>LN3</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="3.1" y="1.4"/>
+        <point x="3.1" y="1.0"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="0.5" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <id>13193412-c5a6-4a0e-a6c6-477b1332086d</id>
+      <name>LN4</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="3.1" y="2.0"/>
+        <point x="3.5" y="2.0"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="0.5" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <id>10291991-4ef8-4a7e-ad4d-0907a7dfa549</id>
+      <name>LN5</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="3.1" y="1.4"/>
+        <point x="3.5" y="1.4"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="0.5" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
     <diylc.passive.ResistorSymbol>
-      <id>9b728287-a236-45f8-8c70-e892b6d529d8</id>
+      <id>0816db56-b504-4cf9-ad3b-8ff739d8abc2</id>
+      <name>Rb1</name>
+      <alpha>127</alpha>
+      <length value="0.3" unit="in"/>
+      <width value="0.08" unit="in"/>
+      <points>
+        <point x="3.1" y="2.0"/>
+        <point x="3.1" y="1.4"/>
+        <point x="3.0250000000000012" y="1.7"/>
+      </points>
+      <borderColor hex="0000ff"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <labelPosition>ABOVE</labelPosition>
+      <draw__style>ANSI</draw__style>
+      <power>HALF</power>
+      <powerNew value="0.5" unit="W"/>
+    </diylc.passive.ResistorSymbol>
+    <diylc.semiconductors.ZenerDiodeSymbol>
+      <id>b7602c2d-7a67-44fc-ad4d-5d79f5c2afa0</id>
+      <name>D1</name>
+      <alpha>127</alpha>
+      <length value="0.1" unit="in"/>
+      <width value="0.1" unit="in"/>
+      <points>
+        <point x="3.4" y="1.4"/>
+        <point x="3.4" y="1.8"/>
+        <point x="3.485" y="1.6000000000000003"/>
+      </points>
+      <bodyColor hex="0000ff"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <labelPosition>ABOVE</labelPosition>
+      <value></value>
+    </diylc.semiconductors.ZenerDiodeSymbol>
+    <diylc.semiconductors.ZenerDiodeSymbol>
+      <id>ad292f21-7503-49ea-aa09-34c953f9c4ae</id>
+      <name>D2</name>
+      <alpha>127</alpha>
+      <length value="0.1" unit="in"/>
+      <width value="0.1" unit="in"/>
+      <points>
+        <point x="3.4" y="2.0"/>
+        <point x="3.4" y="1.6"/>
+        <point x="3.315" y="1.7999999999999994"/>
+      </points>
+      <bodyColor hex="0000ff"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <labelPosition>ABOVE</labelPosition>
+      <value></value>
+    </diylc.semiconductors.ZenerDiodeSymbol>
+    <diylc.connectivity.Line>
+      <id>9bdaecad-7615-4812-9e59-601ac938e73d</id>
+      <name>LN6</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="3.4" y="1.8"/>
+        <point x="3.4" y="1.7"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="0.5" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.passive.TransformerCoil>
+      <id>b7f4a10d-2ec1-44d8-9dc0-c210125a4f24</id>
+      <name>L2</name>
+      <controlPoints>
+        <point x="4.5" y="1.4"/>
+        <point x="4.5" y="2.0"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+      <voltage value="0.0"/>
+      <color hex="0000ff"/>
+      <tapSpacing value="0.6" unit="in"/>
+      <body>
+        <java.awt.geom.GeneralPath serialization="custom">
+          <unserializable-parents/>
+          <java.awt.geom.Path2D_-Float>
+            <default/>
+            <byte>48</byte>
+            <int>4</int>
+            <int>8</int>
+            <byte>1</byte>
+            <byte>64</byte>
+            <float>900.0</float>
+            <float>280.0</float>
+            <byte>65</byte>
+            <float>925.0</float>
+            <float>280.0</float>
+            <byte>64</byte>
+            <float>900.0</float>
+            <float>400.0</float>
+            <byte>65</byte>
+            <float>925.0</float>
+            <float>400.0</float>
+            <byte>97</byte>
+          </java.awt.geom.Path2D_-Float>
+        </java.awt.geom.GeneralPath>
+        <java.awt.geom.GeneralPath serialization="custom">
+          <unserializable-parents/>
+          <java.awt.geom.Path2D_-Float>
+            <default/>
+            <byte>48</byte>
+            <int>13</int>
+            <int>74</int>
+            <byte>1</byte>
+            <byte>64</byte>
+            <float>925.0</float>
+            <float>280.0</float>
+            <byte>67</byte>
+            <float>935.0</float>
+            <float>280.0</float>
+            <float>935.0</float>
+            <float>290.0</float>
+            <float>925.0</float>
+            <float>290.0</float>
+            <byte>67</byte>
+            <float>935.0</float>
+            <float>290.0</float>
+            <float>935.0</float>
+            <float>300.0</float>
+            <float>925.0</float>
+            <float>300.0</float>
+            <byte>67</byte>
+            <float>935.0</float>
+            <float>300.0</float>
+            <float>935.0</float>
+            <float>310.0</float>
+            <float>925.0</float>
+            <float>310.0</float>
+            <byte>67</byte>
+            <float>935.0</float>
+            <float>310.0</float>
+            <float>935.0</float>
+            <float>320.0</float>
+            <float>925.0</float>
+            <float>320.0</float>
+            <byte>67</byte>
+            <float>935.0</float>
+            <float>320.0</float>
+            <float>935.0</float>
+            <float>330.0</float>
+            <float>925.0</float>
+            <float>330.0</float>
+            <byte>67</byte>
+            <float>935.0</float>
+            <float>330.0</float>
+            <float>935.0</float>
+            <float>340.0</float>
+            <float>925.0</float>
+            <float>340.0</float>
+            <byte>67</byte>
+            <float>935.0</float>
+            <float>340.0</float>
+            <float>935.0</float>
+            <float>350.0</float>
+            <float>925.0</float>
+            <float>350.0</float>
+            <byte>67</byte>
+            <float>935.0</float>
+            <float>350.0</float>
+            <float>935.0</float>
+            <float>360.0</float>
+            <float>925.0</float>
+            <float>360.0</float>
+            <byte>67</byte>
+            <float>935.0</float>
+            <float>360.0</float>
+            <float>935.0</float>
+            <float>370.0</float>
+            <float>925.0</float>
+            <float>370.0</float>
+            <byte>67</byte>
+            <float>935.0</float>
+            <float>370.0</float>
+            <float>935.0</float>
+            <float>380.0</float>
+            <float>925.0</float>
+            <float>380.0</float>
+            <byte>67</byte>
+            <float>935.0</float>
+            <float>380.0</float>
+            <float>935.0</float>
+            <float>390.0</float>
+            <float>925.0</float>
+            <float>390.0</float>
+            <byte>67</byte>
+            <float>935.0</float>
+            <float>390.0</float>
+            <float>935.0</float>
+            <float>400.0</float>
+            <float>925.0</float>
+            <float>400.0</float>
+            <byte>97</byte>
+          </java.awt.geom.Path2D_-Float>
+        </java.awt.geom.GeneralPath>
+      </body>
+    </diylc.passive.TransformerCoil>
+    <diylc.connectivity.Line>
+      <id>5ec15f97-936b-430c-a723-4f4b2c5c49f1</id>
+      <name>LN7</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="4.1" y="2.0"/>
+        <point x="4.1" y="2.4"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="0.5" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Dot>
+      <id>de2e1e26-7997-4e10-bdcf-38ff83340df4</id>
+      <name>Dot3</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="000000"/>
+      <point x="4.1" y="2.4"/>
+    </diylc.connectivity.Dot>
+    <diylc.connectivity.Line>
+      <id>85fef926-895e-4d30-bcc7-77768d82b9ec</id>
+      <name>LN9</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="4.1" y="1.4"/>
+        <point x="4.1" y="1.0"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="0.5" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <id>73278a63-fc5a-45e2-a081-98a4f62bf108</id>
+      <name>LN10</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="4.1" y="2.0"/>
+        <point x="4.5" y="2.0"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="0.5" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <id>bb6c0ff7-7668-4e51-a09d-fda88eff5074</id>
+      <name>LN13</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="4.1" y="1.4"/>
+        <point x="4.5" y="1.4"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="0.5" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.passive.ResistorSymbol>
+      <id>8a33a7b7-b1c6-4e5c-83e4-35cebaa1575b</id>
       <name>Rb2</name>
       <alpha>127</alpha>
       <length value="0.3" unit="in"/>
       <width value="0.08" unit="in"/>
       <points>
         <point x="4.1" y="2.0"/>
-        <point x="4.1" y="1.6"/>
-        <point x="4.025" y="1.8"/>
+        <point x="4.1" y="1.4"/>
+        <point x="4.025000000000001" y="1.7"/>
       </points>
       <borderColor hex="0000ff"/>
       <labelColor hex="000000"/>
@@ -1622,18 +1927,18 @@
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
     </diylc.passive.ResistorSymbol>
-    <diylc.passive.ResistorSymbol>
-      <id>9b728287-a236-45f8-8c70-e892b6d529d8</id>
-      <name>Rb1</name>
+    <diylc.semiconductors.ZenerDiodeSymbol>
+      <id>60f9e510-7b34-4c12-88e1-f2b4ac4e7dd8</id>
+      <name>D3</name>
       <alpha>127</alpha>
-      <length value="0.3" unit="in"/>
-      <width value="0.08" unit="in"/>
+      <length value="0.1" unit="in"/>
+      <width value="0.1" unit="in"/>
       <points>
-        <point x="3.6" y="2.0"/>
-        <point x="3.6" y="1.6"/>
-        <point x="3.525" y="1.8"/>
+        <point x="4.4" y="1.4"/>
+        <point x="4.4" y="1.8"/>
+        <point x="4.485" y="1.6"/>
       </points>
-      <borderColor hex="0000ff"/>
+      <bodyColor hex="0000ff"/>
       <labelColor hex="000000"/>
       <leadColor hex="000000"/>
       <display>NAME</display>
@@ -1642,10 +1947,55 @@
       <moveLabel>false</moveLabel>
       <hideShortLeads>false</hideShortLeads>
       <labelPosition>ABOVE</labelPosition>
-      <draw__style>ANSI</draw__style>
-      <power>HALF</power>
-      <powerNew value="0.5" unit="W"/>
-    </diylc.passive.ResistorSymbol>
+      <value></value>
+    </diylc.semiconductors.ZenerDiodeSymbol>
+    <diylc.semiconductors.ZenerDiodeSymbol>
+      <id>bdf2179b-63b0-4d56-b41b-24bfca3d28b0</id>
+      <name>D4</name>
+      <alpha>127</alpha>
+      <length value="0.1" unit="in"/>
+      <width value="0.1" unit="in"/>
+      <points>
+        <point x="4.4" y="2.0"/>
+        <point x="4.4" y="1.6"/>
+        <point x="4.315" y="1.7999999999999994"/>
+      </points>
+      <bodyColor hex="0000ff"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <labelPosition>ABOVE</labelPosition>
+      <value></value>
+    </diylc.semiconductors.ZenerDiodeSymbol>
+    <diylc.connectivity.Line>
+      <id>51089500-4fc0-4eae-b087-f0f00488ac78</id>
+      <name>LN14</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="4.4" y="1.8"/>
+        <point x="4.4" y="1.7"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="0.5" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
     <diylc.misc.Label>
       <id>a6544837-4f6f-43ae-b80e-2724b7424655</id>
       <name>LAB7</name>
@@ -1704,10 +2054,10 @@
     <diylc.misc.Label>
       <id>5a686798-383e-4e49-a0d6-c1932591875c</id>
       <name>LAB16</name>
-      <point x="5.2" y="1.8"/>
+      <point x="5.6" y="1.1"/>
       <text>SCT013G-100</text>
       <font reference="../../diylc.misc.Label/font"/>
-      <color hex="000000"/>
+      <color hex="ff3333"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -1726,7 +2076,7 @@
     <diylc.misc.Label>
       <id>274aabd5-e080-4956-adec-7811b1c00f1b</id>
       <name>LAB19</name>
-      <point x="2.1" y="1.1"/>
+      <point x="1.6" y="0.6000000000000001"/>
       <text>3V3</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1737,7 +2087,7 @@
     <diylc.misc.Label>
       <id>7d59b229-9e30-4e4f-a180-f65fd06897bb</id>
       <name>LAB20</name>
-      <point x="3.8" y="1.4"/>
+      <point x="3.3" y="0.9"/>
       <text>1.65V</text>
       <font reference="../../diylc.misc.Label[8]/font"/>
       <color hex="000000"/>
@@ -1748,7 +2098,7 @@
     <diylc.misc.Label>
       <id>e8d09f67-7881-4fed-9dd1-8770714add7f</id>
       <name>LAB21</name>
-      <point x="3.2" y="2.3"/>
+      <point x="2.7" y="1.7999999999999998"/>
       <text>GND</text>
       <font reference="../../diylc.misc.Label[8]/font"/>
       <color hex="000000"/>
@@ -1759,7 +2109,7 @@
     <diylc.misc.Label>
       <id>5c741dc5-37c0-414b-ba38-4c322bf4c53d</id>
       <name>LAB22</name>
-      <point x="3.6" y="2.4"/>
+      <point x="3.1" y="2.5"/>
       <text>GPIO4</text>
       <font reference="../../diylc.misc.Label[8]/font"/>
       <color hex="000000"/>
@@ -1770,7 +2120,7 @@
     <diylc.misc.Label>
       <id>4c957c64-2228-4804-84f3-ec0343cebd2e</id>
       <name>LAB23</name>
-      <point x="4.1" y="2.4"/>
+      <point x="4.1" y="2.5"/>
       <text>GPIO5</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1781,7 +2131,7 @@
     <diylc.misc.Label>
       <id>4c957c64-2228-4804-84f3-ec0343cebd2e</id>
       <name>LAB24</name>
-      <point x="4.6" y="2.4"/>
+      <point x="5.1" y="2.5"/>
       <text>GPIO6</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1792,7 +2142,7 @@
     <diylc.misc.Label>
       <id>ac0ef8e1-870b-466e-bc45-06fbd3e2d0cd</id>
       <name>LAB25</name>
-      <point x="3.6" y="2.5"/>
+      <point x="3.1" y="2.6"/>
       <text>ADC1_3</text>
       <font reference="../../diylc.misc.Label[8]/font"/>
       <color hex="000000"/>
@@ -1803,7 +2153,7 @@
     <diylc.misc.Label>
       <id>12a5b83f-7fd0-4fc7-9d25-c15b4fc2ec93</id>
       <name>LAB26</name>
-      <point x="4.1" y="2.5"/>
+      <point x="4.1" y="2.6"/>
       <text>ADC1_6</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1814,30 +2164,8 @@
     <diylc.misc.Label>
       <id>12a5b83f-7fd0-4fc7-9d25-c15b4fc2ec93</id>
       <name>LAB27</name>
-      <point x="4.6" y="2.5"/>
+      <point x="5.1" y="2.6"/>
       <text>ADC1_7</text>
-      <font name="Dialog.plain" size="14" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.misc.Label>
-      <id>6adb0f49-1272-4cff-96f2-bc14c609e101</id>
-      <name>LAB15</name>
-      <point x="3.7" y="1.8"/>
-      <text>T1</text>
-      <font name="Dialog.plain" size="14" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.misc.Label>
-      <id>b25a1c2c-8743-4425-aabf-b21b17b65f00</id>
-      <name>LAB28</name>
-      <point x="4.2" y="1.8"/>
-      <text>T2</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -1847,10 +2175,10 @@
     <diylc.misc.Label>
       <id>49792015-85dd-4230-b0e8-deff1d2907b0</id>
       <name>LAB29</name>
-      <point x="4.7" y="1.8"/>
+      <point x="5.3" y="1.3"/>
       <text>T3</text>
       <font name="Dialog.plain" size="14" style="0"/>
-      <color hex="000000"/>
+      <color hex="ff3333"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
@@ -1943,55 +2271,86 @@
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
+    <diylc.misc.Label>
+      <id>d9af0579-c2c3-40bf-b566-08edec88738d</id>
+      <name>LAB6</name>
+      <point x="3.3" y="1.3"/>
+      <text>T1</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="ff3333"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <id>58ebf211-ad95-4161-9e2d-616e53c81e59</id>
+      <name>LAB4</name>
+      <point x="3.6" y="1.7"/>
+      <text>L1</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_270</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <id>f3d448cb-fa4f-4090-80c2-53250376e300</id>
+      <name>LAB5</name>
+      <point x="4.3" y="1.3"/>
+      <text>T2</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="ff3333"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <id>4006979d-0fbb-42fd-8c6f-9c36318c4a7d</id>
+      <name>LAB15</name>
+      <point x="4.6" y="1.7"/>
+      <text>L2</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_270</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <id>b2ae4b82-8db2-4c0f-8e66-16059d38e63b</id>
+      <name>LAB17</name>
+      <point x="5.6" y="1.7"/>
+      <text>L3</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_270</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <id>95c1ac70-ee3f-463a-ba59-72858c572824</id>
+      <name>LAB28</name>
+      <point x="4.6" y="1.1"/>
+      <text>SCT013G-100</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="ff3333"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <id>95c1ac70-ee3f-463a-ba59-72858c572824</id>
+      <name>LAB32</name>
+      <point x="3.6" y="1.1"/>
+      <text>SCT013G-100</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="ff3333"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
   </components>
   <groups/>
-  <groupsEx>
-    <group>
-      <componentIds>
-        <uuid>3f92c96e-12a6-46bb-9764-f92493920af2</uuid>
-        <uuid>0eebbeb8-6875-44e2-bf43-6679d55e2f61</uuid>
-        <uuid>ab7f41f0-f97c-432e-a59b-615e10b37daa</uuid>
-        <uuid>b25a1c2c-8743-4425-aabf-b21b17b65f00</uuid>
-        <uuid>7190487d-b2ac-477a-87e6-469a62f8f8bd</uuid>
-        <uuid>7d59b229-9e30-4e4f-a180-f65fd06897bb</uuid>
-        <uuid>98b50285-7876-458f-9997-e64281a822f7</uuid>
-        <uuid>420c11b9-a6d0-4e1f-a5f9-738425f72ab4</uuid>
-        <uuid>d06d0f26-e665-4613-8215-60801a9b5af5</uuid>
-        <uuid>802eec13-9a1b-4d47-b23a-3b01da8ef9dc</uuid>
-        <uuid>b3526160-20fa-44a5-b038-973d6a7f6f9e</uuid>
-        <uuid>3b489fde-f1cf-4da7-9a6b-63f547227ccb</uuid>
-        <uuid>c0de36b9-41a4-4239-86b6-8b0744b25333</uuid>
-        <uuid>9f348532-4f87-4798-baef-7183bba8b317</uuid>
-        <uuid>a285797e-b49c-47c2-a0ef-b7558a050211</uuid>
-        <uuid>4c7f0ebf-f6ce-4031-bcde-00e512b0ac7f</uuid>
-        <uuid>4c957c64-2228-4804-84f3-ec0343cebd2e</uuid>
-        <uuid>e74077e1-a42f-4d31-97b9-2bb5e3e236dc</uuid>
-        <uuid>8a38e860-bda5-44aa-89ef-521fdce7f24e</uuid>
-        <uuid>5a686798-383e-4e49-a0d6-c1932591875c</uuid>
-        <uuid>e8d09f67-7881-4fed-9dd1-8770714add7f</uuid>
-        <uuid>49792015-85dd-4230-b0e8-deff1d2907b0</uuid>
-        <uuid>228b7526-ae3e-4966-b451-e657fcdbf87b</uuid>
-        <uuid>9b728287-a236-45f8-8c70-e892b6d529d8</uuid>
-        <uuid>2b660dca-4d38-4b95-b63a-bf542d011339</uuid>
-        <uuid>40274b15-1e37-4052-9d8d-b38165890348</uuid>
-        <uuid>ac0ef8e1-870b-466e-bc45-06fbd3e2d0cd</uuid>
-        <uuid>1d3bb273-4455-4061-b3ce-5ad519c8ac34</uuid>
-        <uuid>9d2dc9fa-bf94-4da3-8448-f0d9f9144139</uuid>
-        <uuid>8fdc5562-afea-46cf-81ef-91683b814843</uuid>
-        <uuid>12a5b83f-7fd0-4fc7-9d25-c15b4fc2ec93</uuid>
-        <uuid>563ce333-f9c7-4604-ae59-2b089024e254</uuid>
-        <uuid>274aabd5-e080-4956-adec-7811b1c00f1b</uuid>
-        <uuid>ef5366e8-2758-4010-a659-283a96e98589</uuid>
-        <uuid>6adb0f49-1272-4cff-96f2-bc14c609e101</uuid>
-        <uuid>51b641c8-1acb-42b1-9ffb-45b2bf880432</uuid>
-        <uuid>5c741dc5-37c0-414b-ba38-4c322bf4c53d</uuid>
-        <uuid>7681f319-5269-45eb-9461-4e7137f8e689</uuid>
-        <uuid>5043e2ef-0b7a-4b68-8001-1fa3ecc318e2</uuid>
-        <uuid>e763572b-a741-4da5-8760-84636fbe95ae</uuid>
-      </componentIds>
-      <name>schematic</name>
-    </group>
-  </groupsEx>
+  <groupsEx/>
   <lockedLayers/>
   <lockedComponents/>
   <hiddenLayers/>
