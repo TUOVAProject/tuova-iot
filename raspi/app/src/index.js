@@ -2,13 +2,15 @@ require("dotenv").config();
 const { SerialPort } = require("serialport");
 const moment = require("moment");
 
-const port = new SerialPort({
+const serialParams = {
   path: process.env.SERIAL_PATH || "/dev/ttyUSB0",
   baudRate: parseInt(process.env.SERIAL_BAUD) || 115200,
-});
+};
+
+let port = new SerialPort(serialParams);
 
 // serial open callback
-port.open((err) => {
+const openCallback = (err) => {
   //
   //if (err) console.error("err (?): " + err.message);
 
@@ -69,7 +71,19 @@ port.open((err) => {
         ts,
     );
   });
-});
+};
+
+// connect
+port.open(openCallback);
+
+// serial port reconnect thing
+setInterval(() => {
+  if (!port.isOpen) {
+    log("serial reconnect... ");
+    port = new SerialPort(serialParams);
+    port.open(openCallback);
+  }
+}, 5000);
 
 // repeat every second
 setInterval(() => {
