@@ -763,7 +763,7 @@
       <name>LN11</name>
       <alpha>127</alpha>
       <points>
-        <point x="1.7000000000000002" y="0.6000000000000001"/>
+        <point x="3.3" y="0.6"/>
         <point x="2.5" y="0.6000000000000001"/>
         <point x="0.0" y="0.0"/>
       </points>
@@ -1022,7 +1022,7 @@
       <name>Dot1</name>
       <size value="1.0" unit="mm"/>
       <color hex="ff0000"/>
-      <point x="1.7000000000000002" y="0.6000000000000001"/>
+      <point x="3.3" y="0.6"/>
     </diylc.connectivity.Dot>
     <diylc.connectivity.Dot>
       <id>ab7f41f0-f97c-432e-a59b-615e10b37daa</id>
@@ -1912,7 +1912,7 @@
       <points>
         <point x="4.1" y="2.0"/>
         <point x="4.1" y="1.4"/>
-        <point x="4.025000000000001" y="1.7"/>
+        <point x="4.025000000000001" y="1.7000000000000002"/>
       </points>
       <borderColor hex="0000ff"/>
       <labelColor hex="000000"/>
@@ -2076,7 +2076,7 @@
     <diylc.misc.Label>
       <id>274aabd5-e080-4956-adec-7811b1c00f1b</id>
       <name>LAB19</name>
-      <point x="1.6" y="0.6000000000000001"/>
+      <point x="3.3" y="0.5"/>
       <text>3V3</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -2121,7 +2121,7 @@
       <id>4c957c64-2228-4804-84f3-ec0343cebd2e</id>
       <name>LAB23</name>
       <point x="4.1" y="2.5"/>
-      <text>GPIO5</text>
+      <text>GPIO7</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -2132,7 +2132,7 @@
       <id>4c957c64-2228-4804-84f3-ec0343cebd2e</id>
       <name>LAB24</name>
       <point x="5.1" y="2.5"/>
-      <text>GPIO6</text>
+      <text>GPIO8</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
