@@ -1,0 +1,32 @@
+%%{init: {'theme':'neutral','themeVariables': {'background': '#ffffff'}}}%%
+flowchart BT
+  subgraph Machining Environment
+    CT1
+    CT2
+    CT3
+    ESP32
+    RPIZ2W
+  end
+  subgraph On-Premises Server Env
+    InfluxDB@{shape: cyl}
+    Airflow
+    Postgresql@{shape: cyl}
+  end
+  subgraph End-User Environment
+    PowerBI
+    User1@{icon: "fa-user"}
+    User2@{icon: "fa-user"}
+  end
+
+  CT1 --ADC--> ESP32
+  CT2 --ADC--> ESP32
+  CT3 --ADC--> ESP32
+  
+  ESP32 --RS-232--> RPIZ2W
+
+  RPIZ2W --HTTP--> InfluxDB
+  InfluxDB --HTTP--> Airflow
+  Airflow --SQL--> Postgresql
+  Postgresql --SQL?--> PowerBI
+  PowerBI --HTTP?--> User1
+  PowerBI --HTTP?--> User2
