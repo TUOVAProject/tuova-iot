@@ -15,8 +15,16 @@ double Irms1 = 0;
 double Irms2 = 0;
 double Irms3 = 0;
 
-// poor man's calibration function
-void calibrate() {
+// apparently this is something called "offset compensation"
+// doesn't really matter whether there's current going or not since it's AC where both peaks have the same absolute amplitude
+// might get skewed with less samples but should be fine like this
+void compensateOffset() {
+
+  // reset these here or expect trouble with repeated calls
+  baseline1 = 0;
+  baseline2 = 0;
+  baseline3 = 0;
+
   for (int i = 0; i < samples; i++) {
     baseline1 += analogRead(adcPin1);
     baseline2 += analogRead(adcPin2);
@@ -34,8 +42,7 @@ void setup() {
   analogReadResolution(12);
   analogSetAttenuation(ADC_11db);
 
-  calibrate();
-
+  compensateOffset();
 }
 
 // loop forever
@@ -83,10 +90,10 @@ void loop() {
       Serial.println(Irms3, 2);
     }
 
-    // c = calibrate
+    // c = compensate!
     if(cmd == "c") {
-      calibrate();
-      Serial.println("Calibrated.");
+      compensateOffset();
+      Serial.println("Compensated for your enjoyment.");
     }
 
     // r = reset
