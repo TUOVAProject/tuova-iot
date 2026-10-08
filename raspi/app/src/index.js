@@ -2,91 +2,75 @@ require("dotenv").config();
 const { SerialPort } = require("serialport");
 const moment = require("moment");
 
+// configure serial port
 const serialParams = {
-  path: process.env.SERIAL_PATH || "/dev/ttyUSB0",
-  baudRate: parseInt(process.env.SERIAL_BAUD) || 115200,
+    path: process.env.SERIAL_PATH || "/dev/ttyUSB0",
+    baudRate: parseInt(process.env.SERIAL_BAUD) || 115200,
 };
-
 let port = new SerialPort(serialParams);
 
-// serial open callback
+// serial port open callback:
 const openCallback = (err) => {
-  //
-  //if (err) console.error("err (?): " + err.message);
+    // serial data received callback:
+    port.on("data", (data) => {
+        // create timestamp as unix milliseconds
+        const m = moment();
+        const ts = m.valueOf();
 
-  // serial data received callback
-  port.on("data", (data) => {
-    const m = moment();
-    //const ts = m.utc().toISOString();
+        // split received values to array
+        const arr = data?.toString().split(",");
 
-    // unix ms timestamps
-    const ts = m.valueOf();
+        // create key-value pairs
+        let values = {};
+        let i = 1;
+        for (const s of arr) {
+            values["L" + i] = parseFloat(s);
+            i++;
+        }
 
-    const valStr = data?.toString().split(",");
-    let values = {};
-
-    // parse values to object
-    let i = 1;
-    for (const s of valStr) {
-      values["L" + i] = parseFloat(s);
-      i++;
-    }
-
-    //const obj = { ts, values };
-    //console.log(obj);
-
-    // post to influxdb
-    fetch(
-      process.env.INFLUXDB_API_BASE_URL +
-        "/api/v2/write?org=" +
-        process.env.INFLUXDB_API_ORG +
-        "&bucket=" +
-        process.env.INFLUXDB_API_BUCKET +
-        "&precision=ms",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "text/plain; charset=utf-8",
-          Authorization: "Token " + process.env.INFLUXDB_API_TOKEN,
-        },
-        body:
-          (process.env.INFLUXDB_MEASUREMENT_NAME || "tuova-iot") +
-          ",sensor_id=" +
-          (process.env.INFLUXDB_SENSOR_ID || "ESP32") +
-          " " +
-          Object.entries(values)
-            .map(([key, val]) => key + "=" + val)
-            .join(",") +
-          " " +
-          ts,
-      },
-    );
-
-    console.log(
-      "tuova-iot,sensor_id=ESP32 " +
-        Object.entries(values)
-          .map(([key, val]) => key + "=" + val)
-          .join(",") +
-        " " +
-        ts,
-    );
-  });
+        // post to influxdb
+        fetch(
+            process.env.INFLUXDB_API_BASE_URL +
+                "/api/v2/write?org=" +
+                process.env.INFLUXDB_API_ORG +
+                "&bucket=" +
+                process.env.INFLUXDB_API_BUCKET +
+                "&precision=ms",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "text/plain; charset=utf-8",
+                    Authorization: "Token " + process.env.INFLUXDB_API_TOKEN,
+                },
+                body:
+                    (process.env.INFLUXDB_MEASUREMENT_NAME || "tuova-iot") +
+                    ",sensor_id=" +
+                    (process.env.INFLUXDB_SENSOR_ID || "ESP32") +
+                    " " +
+                    Object.entries(values)
+                        .map(([key, val]) => key + "=" + val)
+                        .join(",") +
+                    " " +
+                    ts,
+            },
+        );
+    });
 };
 
-// connect
+// open serial port with the callback
 port.open(openCallback);
 
 // serial port reconnect thing
+// check every 5 seconds and re-create the serial connection if needed
 setInterval(() => {
-  if (!port.isOpen) {
-    log("serial reconnect... ");
-    port = new SerialPort(serialParams);
-    port.open(openCallback);
-  }
+    if (!port.isOpen) {
+        log("serial reconnect... ");
+        port = new SerialPort(serialParams);
+        port.open(openCallback);
+    }
 }, 5000);
 
-// repeat every second
+// write the measurement command "m" every second
 setInterval(() => {
-  // write measurement command
-  port.write("m\n");
+    port.write("m\n");
 }, 1000);
