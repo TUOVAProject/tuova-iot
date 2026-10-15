@@ -142,9 +142,9 @@ If everything went as planned, the application would now be running in daemon mo
 
 If nothing in this README (or the code) makes sense, feel free to improve.
 
-## LICENCE
+## LICENSE
 
-See [LICENCE.md](LICENCE.md)
+See [LICENSE](LICENSE)
 
 ## Additional Information
 
