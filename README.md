@@ -1,4 +1,4 @@
-# tuova-iot
+# TUOVA Current Sensor Data Collection System
 
 > ## IMPORTANT!
 >
